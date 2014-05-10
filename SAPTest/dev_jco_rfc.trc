@@ -1,0 +1,23 @@
+
+**** Error file opened at 20140508 125211 India Standard Time Rel 3.0.9 (2012-07-19) [720.310]
+Error:  >Thu May 08 12:52:11,155<    RfcException: [null]
+    message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS ASHOST=appserver SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       hostname 'appserver' unknown
+TIME        Thu May 08 12:52:11 2014
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        895
+DETAIL      NiPGetHostByName: 'appserver' not found
+SYSTEM CALL getaddrinfo
+COUNTER     2
+
+    Return code: RFC_FAILURE(1)
+    error group: 102
+    key: RFC_ERROR_COMMUNICATION
+
